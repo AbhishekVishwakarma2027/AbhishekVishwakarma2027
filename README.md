@@ -1,105 +1,100 @@
 # I'm **Abhishek Kumar Vishwakarma**
 
-🎓 **B.Tech CSE (AI & Data Science – IBM Collaboration)**  
-💡 Passionate about AI, local intelligence, multimodal learning, and full-stack development.  
-🔬 Building the bridge between *offline AI systems* and *real-world usability*.
+**B.Tech CSE (AI & Data Science – IBM Collaboration)**
+Developer focused on **AI, full-stack development, and IoT**. I like building practical systems that combine software, data, and real-world use cases.
 
 ---
 
 ## About Me
 
-I’m a developer who believes that *true intelligence doesn’t always need the cloud.*  
-I love combining **AI, Web, and IoT** to build **self-contained intelligent systems** that can think, respond, and visualize — completely offline.  
+I’m a developer who enjoys turning ideas into working systems. My work mainly revolves around **AI/ML, backend systems, web and mobile development, and IoT**.
 
-From creating multimodal retrieval systems to designing real-time IoT dashboards, my focus has always been on **autonomy, optimization, and user experience**.  
-I enjoy solving complex challenges involving **data processing, local LLM inference, automation, and interface design.**
+I’ve worked on projects ranging from **offline multimodal RAG and computer vision** to **civic issue reporting systems and ESP32-based IoT applications**. I enjoy understanding how things work end-to-end and building them accordingly.
 
+## Flagship Project — **CSCRS: Crowdsourced Civic Issue Reporting and Resolution System**
 
-## Flagship Project — **NexusMind: Unified Offline Multimodal RAG System**
+A full-stack platform for reporting, verifying, assigning, and resolving civic issues using AI-assisted workflows.
 
-> An advanced **offline AI assistant** capable of understanding and reasoning over **documents, images, and audio** — without internet.
+### Highlights
 
-###  Highlights  
-- **Offline Multimodal RAG** (text, image, audio)  
-- **Local inference** using Meta Llama 3 (1B, 3B, 8B) via `Llama.cpp`  
-- **FAISS + SentenceTransformer** for semantic vector retrieval  
-- **Whisper** for speech-to-text transcription  
-- **Pytesseract OCR** for image understanding  
-- **Flask Backend** + **Modern Web UI** (HTML, CSS, JS)  
-- **Citation Transparency**, **Voice Input**, **Dark/Light UI**  
-- **Real-time GPU/CPU/RAM Monitoring**  
+* Role-based system for **Citizens, Workers, Department Admins, City Admins, and Super Admins**
+* AI-assisted **image verification and civic issue detection**
+* Report routing, worker assignment, resolution submission, and verification workflow
+* JWT authentication, RBAC, API rate limiting, and PostgreSQL
+* React web portal for administration and React Native mobile application
+* Production-oriented backend with Docker, Redis, Nginx, and database migrations
 
-**Tech Stack:**  
-`Python` · `Flask` · `FAISS` · `SentenceTransformer` · `Whisper` · `Pytesseract` · `Llama.cpp` · `HTML` · `CSS` · `JavaScript`
-
-**Performance:**  
-- Query: 2.8s (text) / 6.4s (multimodal)  
-- GPU Utilization: 72%  
-- Accuracy: 95% · Citation Precision: 100%
+**Tech Stack:**
+`Python` · `FastAPI` · `SQLAlchemy` · `PostgreSQL` · `Redis` · `Docker` · `React` · `TypeScript` · `React Native` · `Expo` · `YOLO` · `OpenCLIP`
 
 ---
 
-##  Other Projects
+## Other Projects
 
-### **Mindlytics — Mental Health Prediction System**
-- Predicts mental health condition using **IBM Watson Studio** & **SPSS Modeler 18.5**
-- **Flask-based web interface**, predictive API endpoint integration  
-- Uses ML pipeline for real-time emotional insights  
- Tech: `Flask` · `IBM Watson` · `SPSS Modeler` · `Python`  
+### **NexusMind — Offline Multimodal RAG System**
+
+An offline AI assistant designed to work with **documents, images, and audio** without relying on cloud APIs.
+
+* Built a local RAG pipeline for document retrieval and question answering
+* Used **FAISS** and **Sentence Transformers** for semantic search
+* Integrated **Llama 3** for local inference
+* Used **Whisper** for audio transcription and **Pytesseract** for OCR
+* Built a Flask-based backend with a web interface
+
+**Tech:** `Python` · `Flask` · `FAISS` · `Llama.cpp` · `Whisper` · `Pytesseract`
+
 ---
 
 ### **Fire Thermomist — IoT Fire Detection System**
-- Built using **ESP32 WROOM32**, **DHT22**, **Flame Sensor**, **OLED Display**, and **Buzzer**
-- Features 3-stage **boot animation**, **weather visuals**, and **real-time fire alerts**  
-- Converts GIF animations into frame sequences for OLED display  
-  Purpose: Continuous environment monitoring for high-risk zones  
-  Tech: `C/C++` · `Arduino IDE` · `ESP32` · `DHT22` · `OLED` · `Flame Sensor`  
+
+An ESP32-based system for monitoring environmental conditions and detecting fire-related events.
+
+* Integrated **DHT22, flame sensor, OLED display, and buzzer**
+* Added real-time temperature, humidity, and fire alerts
+* Built OLED animations and device-level monitoring logic
+
+**Tech:** `C/C++` · `ESP32` · `Arduino IDE` · `DHT22` · `OLED` · `Flame Sensor`
 
 ---
-
-###  **Home Automation Web Dashboard (Blynk Alternative)**
-- Custom web platform to control ESP-based relays & sensors in real time  
-- Built to overcome **Blynk’s 10K message limit**  
-- Designed for unlimited local control requests with responsive web UI  
-  Tech: `HTML` · `CSS` · `JavaScript` · `Flask` · `ESP32`  
 
 ---
 
 ### **Spotify Clone — Music Streaming Web App**
-- Integrated **Saavn.dev API** to fetch and play real songs  
-- Fully custom UI (no template use) with dynamic playlist & song cards  
-  Tech: `HTML` · `CSS` · `JavaScript` · `API Integration`
 
----
+A frontend project built around a real music API.
 
-### **Map Navigator — DSA-Based Path Finder**
-- Takes “From” & “To” input and shows **shortest path visualization**  
-- Built using **Graph algorithms (Dijkstra/DFS)**  
-- Option to view all nodes/paths like a mini map system  
-  Tech: `Python` · `Tkinter` / `NetworkX` (conceptual base)  
+* Integrated **Saavn API** for fetching and playing songs
+* Built the interface and dynamic music cards from scratch
+* Added playlist and playback functionality
+
+**Tech:** `HTML` · `CSS` · `JavaScript` · `API Integration`
 
 ---
 
 ## Skills & Technologies
-**Languages:** Python · JavaScript · C++  
-**Frameworks:** Flask · React (learning)  
-**AI/ML:** Llama.cpp · FAISS · Whisper · SentenceTransformers · IBM Watson  
-**IoT:** ESP32 · DHT22 · Flame Sensor · OLED Display  
-**Databases:** SQLite · JSON-based storage  
-**Core Strengths:** AI Integration · System Optimization · Web + IoT Fusion · Offline Deployment  
+
+**Languages:** Python · JavaScript · TypeScript
+**Backend:** FastAPI · Flask · Node.js · Express.js
+**Frontend & Mobile:** React · React Native · Expo · HTML · CSS
+**AI/ML:** YOLO · FAISS · Llama.cpp · Whisper · OpenCLIP · Scikit-learn · Sentence Transformers
+**Data:** Pandas · Matplotlib · Excel · IBM Watson Studio
+**Databases & Infrastructure:** PostgreSQL · SQLite · MongoDB · Redis · Docker · Nginx
+**IoT:** ESP32 · Arduino · DHT22 · HC-SR04 · Sensors & Embedded Systems
+**Tools:** Git · GitHub · Linux
 
 ---
 
 ## Career Vision
-I’m driven to create **autonomous, multimodal AI systems** that run entirely offline — bridging the gap between **human-like intelligence** and **local computation**.  
-In the future, I aim to design **next-gen AI frameworks**, **offline copilots**, and **self-learning assistants** that operate independently yet responsibly.  
 
-> My goal isn’t just to use AI — it’s to **make AI truly yours**, right on your device.  
+I want to build practical AI systems that solve real problems, while continuing to grow across **AI, backend engineering, and full-stack development**.
+
+I’m particularly interested in systems where **AI is part of the product itself**, rather than just an added feature.
 
 ---
 
 ## Connect with Me
-📩 **Email:** av828792@gmail.com  
-💻 **LinkedIn:** www.linkedin.com/in/abhivish27  
-💬 Let’s talk about AI, RAG, or creative offline systems.
----
+
+**Email:** [av828792@gmail.com](mailto:av828792@gmail.com)
+**LinkedIn:** [www.linkedin.com/in/abhivish27](http://www.linkedin.com/in/abhivish27)
+
+## I’m always open to discussing AI, RAG, computer vision, full-stack development, and interesting engineering problems.
