@@ -15,6 +15,14 @@ I’ve worked on projects ranging from **offline multimodal RAG and computer vis
 
 A full-stack platform for reporting, verifying, assigning, and resolving civic issues using AI-assisted workflows.
 
+## More Projects
+
+I also maintain a **personal GitHub profile** where I keep additional projects, experiments, and work that doesn't fit on this profile.
+
+**Personal GitHub:** [github.com/AbhiVish6386](https://github.com/AbhiVish6386)
+
+---
+
 ### Highlights
 
 * Role-based system for **Citizens, Workers, Department Admins, City Admins, and Super Admins**
